@@ -1,0 +1,30 @@
+SOBRE OS DADOS
+
+	Os dados analisados no programa descrevem o numero de alunos matriculados por curso do ensino superior
+nos períodos 1 e 2 da grade curricular no Brasil entre os anos de 2010 e 2018.
+
+TRATAMENTO DOS DADOS
+	Na base de dados continham codigo, curso, ano, periodo, vinculados, matriculados, ingressantes, diplomados
+e evadido. Para realizar as operações matematicas foram utilizados apenas o numero de matriculados em cada curso
+considerando o ano corrente.
+	Para a análise amostral, os dados foram organizados por ano gerando 8 grupos de dados.
+
+RECURSOS:
+
+- Linguagem Python de programação;
+- Biblioteca Matplotlib para gerar graficos e afins;
+- Biblioteca Statistics que possui funções para calcular as propriedades solicitadas na 1ª Questao.
+
+O projeto contem três arquivos principais:
+	- programa_principal.py - O qual será executado realizando as chamadas de funcoes e impressões dos dados;
+	
+	- calcular propriedades.py - O qual realiza as operacoes de organização dos dados e realizada chamadas de
+	funções para a biblioteca Statistics e afins;
+	
+	- propriedades_estatisticas.py - Onde estão as funções que constam em Statistics e outras que foram necessárias
+	para calcular as propriedades da 2ª questão.
+
+O projeto ainda contem a planilha de dados original e prints do programa com as tabelas e informações já processadas.
+
+
+Osmar Junior
